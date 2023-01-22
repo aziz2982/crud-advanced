@@ -1,0 +1,51 @@
+.movies {
+    margin-top: 1.5rem;
+    padding: 1.5rem;
+    border-radius: 4px;
+    background-color: #fcfaf5;
+    box-shadow: 15px 15px 30px rgb(0, 0, 0, 0.20);
+}
+
+.movie{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid grey;
+    border-radius: 3px;
+    margin: 3px;
+    padding: 0px 25px;
+    align-items: center;
+    height: 50px;
+}
+.opt{
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.name{
+    flex: 2;
+    font-size: 25px;
+    font-family: monospace;
+    font-weight: 900;
+}
+
+.caunt{
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.btn-movie{
+    padding: 10px;
+    background: #efefef;
+    color: red;
+    font-size: 17px;
+    font-family: monospace;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.noFilm{
+    text-align: center;
+    font-family: monospace;
+}
